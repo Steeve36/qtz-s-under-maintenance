@@ -1,11 +1,13 @@
 .under-construction-container {
     min-width: 100vw;
-    min-height: 100vh;
+    min-height: 100dvh;
     background-color: black;
     background: url(asstets/images/img-qtz-bg.svg) no-repeat center;
     background-size: cover;
     display: flex;
     align-items: center;
+    justify-content: center;
+    overflow-y: hidden;
 }
 
 .container {
@@ -20,7 +22,7 @@
     position: relative;
     box-shadow: 0 10px 20px hsla(0, 0%, 4%, 0.323);
     z-index: 1;
-    margin-top: 3rem;
+    margin-bottom: 3rem;
 
     /* Réduction de la taille du composant et de son contenu */
     transform: scale(0.70); /* Réduit de 0.85 point l'élément' */
