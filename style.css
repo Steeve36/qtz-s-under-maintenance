@@ -1,9 +1,18 @@
+html, body {
+    height: 100dvh; /* Prend en compte les barres de navigation mobiles */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
 .under-construction-container {
     min-width: 100vw;
     min-height: 100dvh;
     background-color: black;
     background: url(asstets/images/img-qtz-bg.svg) no-repeat center;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,6 +36,7 @@
     /* Réduction de la taille du composant et de son contenu */
     transform: scale(0.70); /* Réduit de 0.85 point l'élément' */
 }
+
 .content-container::before {
     content: "";
     position: absolute;
